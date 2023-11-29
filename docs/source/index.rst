@@ -1,22 +1,20 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to MT CloudXR's documentation!
+======================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+**MT CloudXR SDK** is a GPU-accelerated virtual reality (VR)/augmented reality (AR) streaming platform that was built to stream OpenVR-based applications from a remote server. 
+Using CloudXR, VR/AR content can be streamed over ethernet, Wi-Fi, cellular, and other standard networking technologies.
 
 .. note::
 
-   This project is under active development.
+   The CloudXR client SDK library supports Microsoft Windows and Android devices.
 
-Contents
---------
+
+XR content is streamed from a Windows server to an XR client device, which provides access to a high-powered graphics server from a relatively low-end client. Examples of VR clients are an PICO headset that is connected to a laptop or all-in-one headsets, such as the PICO NEO 3 and PICO 4.
+
+The MT CloudXR SDK comprises a server driver, the client SDK, and sample client applications.
 
 .. toctree::
-
-   usage
-   api
+   :maxdepth: 1
+   
+   server
+   client
